@@ -27,6 +27,14 @@ public class GameEngine : MonoBehaviour {
         gameOver = false;
     }
 
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+    }
+
     public void GameOver()
     {
         StartCoroutine("LoadMainMenu");

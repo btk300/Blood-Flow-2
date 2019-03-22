@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/ML-Agents/Examples/Blood Flow ML-Agents/Scenes/MainGame.unity
-    guid: c32e78c53911b614b875ceefd96008ab
-  - enabled: 0
-    path: Assets/ML-Agents/Examples/Blood Flow ML-Agents/Scenes/MLAgentsBF.unity
-    guid: 60ad0d997b85343478f0514a15cd589e
   - enabled: 1
     path: Assets/ML-Agents/Examples/Blood Flow ML-Agents/Scenes/MainMenu.unity
     guid: e8269459a2e2b80449ac5ac05b170daf
+  - enabled: 1
+    path: Assets/ML-Agents/Examples/Blood Flow ML-Agents/Scenes/EasyLevel.unity
+    guid: 97192fd5e2ba5fa488ea08d178d6cdae
+  - enabled: 1
+    path: Assets/ML-Agents/Examples/Blood Flow ML-Agents/Scenes/NormalLevel.unity
+    guid: de76334836548e043bdb20bd045157d7
+  - enabled: 1
+    path: Assets/ML-Agents/Examples/Blood Flow ML-Agents/Scenes/HardLevel.unity
+    guid: 2cba165c93dcfcb47b266a38006b2edd
+  - enabled: 1
+    path: Assets/ML-Agents/Examples/Blood Flow ML-Agents/Scenes/MLAgentsBF.unity
+    guid: 60ad0d997b85343478f0514a15cd589e
   m_configObjects: {}
